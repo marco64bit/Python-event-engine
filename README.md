@@ -13,7 +13,7 @@ def foo(old_val, new_val):
   #do something
   print old_val, new_val
   
-scope.fist = "test"
+scope.first = "test"
 scope.add("first", foo)
 scope.first = "test change"
 </pre>
